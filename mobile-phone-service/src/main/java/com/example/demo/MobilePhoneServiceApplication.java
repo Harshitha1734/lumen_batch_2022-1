@@ -19,6 +19,8 @@ public class MobilePhoneServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MobilePhoneServiceApplication.class, args);
+		
+		System.out.println("Changes by srivani");
 	}
 	@Bean
 	public CommandLineRunner runner() {
