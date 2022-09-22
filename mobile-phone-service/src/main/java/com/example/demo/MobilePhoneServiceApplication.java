@@ -19,7 +19,7 @@ public class MobilePhoneServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MobilePhoneServiceApplication.class, args);
-	System.out.println("Suma");
+	System.out.println("Suma has done changes");
 	}
 	@Bean
 	public CommandLineRunner runner() {
