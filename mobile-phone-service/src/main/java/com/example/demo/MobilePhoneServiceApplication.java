@@ -19,6 +19,7 @@ public class MobilePhoneServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MobilePhoneServiceApplication.class, args);
+		System.out.println("Meena");
 	}
 	@Bean
 	public CommandLineRunner runner() {
@@ -30,6 +31,7 @@ public class MobilePhoneServiceApplication {
 			public void run(String... args) throws Exception {
 				// TODO Auto-generated method stub
 				repo.save(new MobilePlan(102,"PRE-111",120,"28 days"));
+				
 			}
 		};
 	}
